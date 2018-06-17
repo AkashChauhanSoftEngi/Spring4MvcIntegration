@@ -1,4 +1,4 @@
-# Spring 4 MVC Example (Java Configuration) + Maven
+# Spring 4 + MVC + Java Configuration + Maven, Example
 
 Template example for Spring 4 MVC + JSP View with pure Java Configuration (no XML), using Maven build tool.
 -Spring4 + MVC, Integration without using the web.xml and Spring_Servlet.xml file. 
@@ -10,10 +10,9 @@ Template example for Spring 4 MVC + JSP View with pure Java Configuration (no XM
 * JSTL 1.2
 
 > **###2. To Run this project locally**
-
 * $ git clone https://github.com/AkashChauhanSoftEngi/Spring4MvcIntegration
 * $ mvn tomcat7:run
 
 > **###3.  Access** 
-http://localhost:8080/Spring4MvcIntegration
+* http://localhost:8080/Spring4MvcIntegration
 
