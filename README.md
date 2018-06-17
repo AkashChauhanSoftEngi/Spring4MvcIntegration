@@ -5,9 +5,9 @@ Template example for Spring 4 MVC + JSP View with pure Java Configuration (no XM
 -By using WebMvcConfigurerAdapter class and WebApplicationInitializer interface to replace above files.
 
 > **###1. Technologies**
-Spring 4.0.6.RELEASE
-Maven 3.1
-JSTL 1.2
+* Spring 4.0.6.RELEASE
+* Maven 3.1
+* JSTL 1.2
 
 > **###2. To Run this project locally**
 
