@@ -16,3 +16,22 @@
 > **###3.  Access** 
 * http://localhost:8080/Spring4MvcIntegration
 
+> **###4. Addtional Information**
+* To get rid of web.xml [Includes Dispature Servlet Information] you need to extend a class name WebApplicationInitializer
+  and have to register configuration file, give details of mapping from where should servlet start reading content
+```java
+    public class HelloWorldInitializer implements WebApplicationInitializer {
+    }
+```
+* To get rid of AppConfiguration.xml [Beans declaration] file, you need to extend WebMvcConfigurerAdapter class
+  and have to add @Configuration, @EnableWebMvc and @ComponentScan(basePackages = "com.project") annotations
+* Also have to override viewResolver() for accesing JSP files if any
+* There are Other overriding methods as well in WebMvcConfigurerAdapter class
+```java
+    @Configuration
+    @EnableWebMvc
+    @ComponentScan(basePackages = "com.project")
+    @PropertySource("classpath:messages.properties")
+    public class HelloWorldConfiguration extends WebMvcConfigurerAdapter {
+    }
+```
